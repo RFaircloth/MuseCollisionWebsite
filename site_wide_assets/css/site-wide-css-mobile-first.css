@@ -1,0 +1,4104 @@
+/* --- [ reset ] --- */
+
+	body, p, ul, ol {
+
+					margin: 										0;
+					padding:										0;
+}
+	body {
+
+					font-family: 								helvetica, arial, sans-serif;
+					font-size: 									16px;
+					color: 										rgba(255,255,255,.8);
+}
+	.subheading {
+
+					font-weight: 								bold;
+					font-size: 									1.1em;
+					color: 										rgba(255,255,255,1);
+					margin: 										0 0 1em 1.7em;
+}
+
+
+/* --- [ responsive grid ] --- */
+
+	.module_100 {
+	
+					width: 										100%;
+					margin-bottom: 							1em; /* was 2em */
+}
+	.module_66 {
+
+					width: 										66%;
+					float: 										left;
+}
+
+	.module_33 {
+
+					width: 										33%;
+					float: 										left;
+}
+	.module_34: {
+
+					width: 										34%;
+}
+
+
+
+
+	#menu_mobile_small li a {
+
+			color: 												rgba(255,255,255,1);
+			text-decoration: 									none;
+}
+	#menu_mobile_small li a:hover {
+
+			color: 												rgba(0,255,0,1);
+			text-decoration: 									none;
+}
+
+
+
+	#menu_mobile_medium_left li a, #menu_mobile_medium_right li a {
+
+			color: 												rgba(255,255,255,1);
+			text-decoration: 									none;
+}
+	#menu_mobile_medium_left li a:hover, #menu_mobile_medium_right li a:hover {
+
+			color: 												rgba(0,255,0,1);
+			text-decoration: 									none;
+			cursor: 												pointer;
+			background-color: 								rgba(255,255,255,.3);
+
+}
+
+
+
+
+
+/* --- [ min-width:320px and max-width:479px ] ---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+
+
+		.page_background {
+
+						height: 										auto;
+						width: 										100%;
+						min-height: 								100%;
+						min-width: 									100%;
+						position: 									fixed;
+						top: 											0px;
+						left: 										0px;
+	}
+		#page_wrapper {
+
+						position: 									relative;
+						width: 										95%; /* was 90% */
+						margin: 										0 auto;
+						margin-top: 								1em; /* was 2em */
+						max-width: 									1400px;
+	}
+		#header {
+
+						border: 										1px solid rgba(255,255,255,.8);
+						border-radius: 							1em;
+						background-color: 						rgba(0,0,0,.6);
+	}
+		.logo {
+
+						float: 										left;
+						height: 										6.3125em; /* was 8em */
+						padding: 									1em 0em .75em 2em;
+	}
+		.logo img {
+
+						height: 										6.3125em;
+	}
+
+
+
+
+		#menu_mobile_small {
+
+						text-align: 								center;
+	}
+		#menu_mobile_small li {
+
+						padding: 									1em 0 1em 0;
+						list-style: 								none;
+	}
+		#menu_and_social_601 {
+
+						border: 										1px solid rgba(255,255,255,.8);
+						border-radius: 							.75em;
+						background-color: 						rgba(0,0,0,.6);
+						text-align: 								center;
+	}
+		#menu_and_social_medium {
+
+						display: 									none;
+	}
+		.menu_and_social_601_container {
+
+						/*position: 									relative;*/
+						padding: 									1em 0 .75em 0;
+						display:										inline-block;
+						width: 										100%;
+						/*top: 											0em;*/
+						margin: 										0 auto;
+	}
+		.menu_and_social_medium_container {
+
+						display: 									none;
+	}	
+		#facebook {
+
+						margin-right: 								4.29530201342282%;
+	}
+		#pinterest {
+
+						margin-right: 								4.29530201342282%;
+	}
+		#menu_601 {
+
+						margin-right: 								4.29530201342282%;
+						padding: 									4px 18px 4px 18px;
+						border: 										1px solid rgba(255,255,206,.5);
+						border-radius: 							.5em;
+						color: 										rgba(255,255,206,1);
+						position: 									relative;
+						top: 											-.75em;					
+	}
+		#menu_medium {
+
+						margin-right: 								4.29530201342282%;
+						padding: 									4px 18px 4px 18px;
+						border: 										1px solid rgba(255,255,206,.5);
+						border-radius: 							.5em;
+						color: 										rgba(255,255,206,1);
+						position: 									relative;
+						top: 											-.75em;
+	}
+		#googleplus {
+
+						margin-right:								4.29530201342282%;
+	}
+		#twitter {
+
+
+	}
+		#contact_info_smaller {
+
+						border: 										1px solid rgba(255,255,255,.8);
+						border-radius: 							.75em;
+						background-color: 						rgba(0,0,0,.6);
+	}
+		#contact_info_smaller a {
+
+						color: 										rgba(255,255,255,.8);
+						text-decoration: 							none;
+	}
+		#contact_info_smaller_container {
+
+						padding: 									1em 0 .75em .4em;
+						text-align: 								center;
+	}
+		#business_email a {
+
+						color: 										rgba(255,255,255,.8);
+						text-decoration: 							none;
+	}
+		#business_phone a {
+
+						color: 										rgba(255,255,255,.8);
+						text-decoration: 							none;
+	}
+		#business_name {
+
+						font-weight: 								bold;
+						color: 										rgba(247,237,192,1);
+						font-size: 									1.16em;
+	}
+		#business_info_container a {
+
+						color: 										rgba(255,255,255,.8);
+						text-decoration: 							none;
+	}
+		#business_info_container a:hover {
+
+						color: 										rgba(0,255,0,1);
+	}
+
+
+
+
+
+
+
+	/* --- [ hidden items, min-width:320px and max-width:479px ] ----------------------------------- */
+
+
+		#large_photo_container {
+
+						display: 									none;
+	}
+		#business_byline {
+
+						display: 									none;
+
+						position: 									absolute;
+						left: 										250px;
+						top: 											70px;
+						z-index: 									10;
+						color:										rgba(255,255,255,1);
+	}
+		#menu {
+
+						display: 									none;
+
+						position:									absolute;
+						left: 										45.9127%; /* 50%-4.0873% = 45.9127% */
+						top: 											115px;
+						padding: 									4px 18px 4px 18px;
+						border: 										1px solid rgba(255,255,206,.5);
+						border-radius: 							.5em;
+						color: 										rgba(255,255,206,1);
+	}
+		#social_icons {
+
+						display: 									none;
+
+						width: 										2em;
+						height: 										8em;
+						position: 									relative;
+						top: 											-9.85em;
+						float:										right;
+						padding-right:								2.53968253968254%; /* 32px/1260px */
+	}
+		#credit_cards {
+
+						display: 									none;
+
+						width:										45px;
+						height: 										120px;
+						position:									relative;
+						top: 											-10em;
+						opacity: 									.6;
+						/*left:											1000px;*/
+						float:										right;
+						padding-right: 							2.53968253968254%; /* 32px/1260px */
+	}
+		#business_info_container {
+
+						display: 									none;
+	}
+
+
+
+
+
+
+
+
+
+	/* --- [ main content ] ------------------------------------------------------------------------ */
+
+
+	/* --- [ index page, excellence_content_container_module_66 ] --- */
+
+		#excellence_content_container {
+
+				display: 										none;
+	}
+
+
+	/* --- [ index page, customer_comments ] --- */
+
+		#customer_comments_content_container {
+
+				display: 										none;
+	}
+		#customer_comments_right_container {
+
+				display: 										none;
+	}
+
+
+
+	/* --- [ about us , about us text, 320px - 479px ] --- */
+
+		#about_us_content_container {
+
+				display: 										block;
+				width: 											100%;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+	}
+		#about_us {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1em;
+	}
+		#about_us_content_container p {
+
+				text-align: 									justify;
+				margin: 											0 1em 1em 1em; /* 32px/990px */
+				color: 											rgba(255,255,255,.8);
+	}
+
+
+
+
+	/* --- [ about us , preferred text ] --- */
+
+		#preferred_container {
+
+				display: 										block;
+				width: 											100%;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+				margin-top: 									1em;
+	}
+		#preferred_heading {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1em;
+	}
+		#preferred_container p {
+
+				text-align: 									justify;
+				margin: 											0 1em 1em 1em; /* 32px/990px */
+				color: 											rgba(255,255,255,.8);
+	}
+
+
+
+
+			/* --- [ about us , lifetime warranty text ] --- */
+
+		#lifetime_warranty_container {
+
+				display: 										block;
+				width: 											100%;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+				margin-top: 									1em;
+	}
+		#warranty_heading {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1em;
+	}
+		#lifetime_warranty_container p {
+
+				text-align: 									justify;
+				margin: 											0 1em 1em 1em; /* 32px/990px */
+				color: 											rgba(255,255,255,.8);
+	}
+
+
+
+
+	/* --- [ auto body repair, min 320px - max 479 ] --- */
+
+		#contact_info_smaller_pages_container {
+
+				display: 										block;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+				margin: 											1em 0 2em 0;
+	}
+		#contact_info_smaller_pages {
+
+				display: 										block;
+				padding: 										1em 0 .75em .4em;
+				text-align: 									center;
+	}
+		#contact_info_smaller_pages a {
+
+				color: 											rgba(255,255,255,.8);
+				text-decoration: 								none;
+	}
+
+
+
+
+	/* --- [ auto body repair, min 320px - max 479 ] --- */
+
+		#auto_body_repair_content_container {
+
+				display: 										block;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+				margin: 											1em 0 1em 0;
+	}
+		#auto_body_repair_heading {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1em;
+	}
+		#auto_body_repair_content_container p {
+
+				text-align: 									justify;
+				margin: 											0 1em 1em 1em; /* 32px/990px */
+				color: 											rgba(255,255,255,.8);
+	}
+		.auto_body_repair_before_after_left {
+
+				width:											90%;
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_body_repair_before_after_right {
+
+				width: 											90%;
+				height: 											150px;
+				margin-top: 									1.5em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+	/* --- [ auto painting, min 320px - max 479 ] --- */
+
+		#auto_painting_content_container {
+
+				display: 										block;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+				margin: 											0 0 1em 0;
+	}
+		#auto_painting_heading {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1em;
+	}
+		#auto_painting_content_container p {
+
+				text-align: 									justify;
+				margin: 											0 1em 1em 1em; /* 32px/990px */
+				color: 											rgba(255,255,255,.8);
+	}
+		.auto_painting_before_after_left {
+
+				width:											90%;
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_painting_before_after_right {
+
+				width: 											90%;
+				height: 											150px;
+				margin-top: 									1.5em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+	/* --- [ blog, min 320px - max 479 ] --- */
+
+		#blog_content_container {
+
+				display: 										block;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+				margin: 											1em 0 1em 0;
+	}
+		#blog_heading {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1em;
+	}
+		.blog_heading_image {
+
+				width:											90%;
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.blog_title {
+
+				font-weight: 									bold;
+				font-size:										1.1em;
+				color: 											rgba(255,255,255,1);
+				margin:											0 0 .5em 1em;
+	}
+		.blog_author {
+
+				color: 											rgba(255,255,255,.6);
+				font-size: 										.8em;
+				margin-left: 									1.25em;
+	}
+		.blog_date_time {
+
+
+	}
+		.byline {
+
+				color: 											rgba(255,255,255,1);
+				font-style: 									italic;
+				margin: 											0 1em 0 1em;
+	}
+		a.view_hide_blog_link {
+
+				color: 											rgba(255,255,255,.8);
+				margin: 											0 0 0 1.25em;
+	}
+		.hidden_blog_article, .visible_blog_article {
+
+				margin: 											1.5em 1em 0 1em;
+	}
+		#preferred_container {
+
+				display: 										none;
+	}
+		#lifetime_warranty_container {
+
+				display: 										none;
+	}
+
+
+
+
+
+		#contact_us_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+	}
+		#contact_us_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+	}
+		.required_asterick {
+
+				color: 											rgba(255,0,0,1);
+				font-weight: 									bold;
+				font-size: 										1em;
+	}
+		.required_note {
+
+				font-weight:									normal;
+				font-size:										.6em;
+				color:											rgba(255,255,255,.8);
+				margin-left: 									1em;
+				font-family: 									helvetica, arial, sans-serif;
+
+	}
+		#contact_us_form {
+
+
+
+	}
+		.contact_us_form {
+
+				padding: 										2em 1.25em 1.25em 1em;
+	}
+		#contact_us_intro {
+
+				margin-bottom: 								2em;
+	}
+		#contact_us_first_name_div, #contact_us_last_name_div,
+		#contact_us_email_div, #contact_us_email_confirmation_div	{
+
+				margin-bottom: 								1em;
+	}			
+		#contact_us_last_name_div, #contact_us_email_confirmation_div,
+		#contact_us_last_name_div, #contact_us_email_confirmation_div {
+
+				margin-right: 									0;
+	}
+		label {
+
+				font-family: 									helvetica, arial, sans-serif;
+	}
+		.error_message {
+
+				position:										relative;
+				top: 												-2px;
+				margin-left: 									.75em;
+				font-size: 										.8em;
+				color: 											rgba(255,0,0,1);
+	}
+		input[type=text] {
+
+				height: 											1.5em;
+				width: 											95%;
+				font-size: 										1em;
+	}
+		input[type=text]:focus, textarea:focus {
+
+				box-shadow: 									2px 2px 3px rgba(0,255,0,.3), 2px 2px 3px rgba(0,255,0,.3), 0 -3px 4px rgba(0,255,0,.4), -3px 0 4px rgba(0,255,0,.4);
+
+	}
+		textarea {
+
+				width: 											100%;
+				padding-top: 									5px;
+				height: 											3em;
+				font-size: 										1em;
+	}
+		#contact_us_submit_button {
+
+				height: 											2em;
+				margin: 											2em 0 2em 0;
+				font-weight: 									bold;
+				font-size: 										1em;
+	}
+		.validation_image_status {
+
+				position:										relative;
+				top:												1px;
+				left:												5px;
+	}
+
+
+
+
+	/* --- [ customer comments, min 320px - max 479px ] --- */
+
+			#preferred_container {
+
+				display: 											none;
+		}
+			#lifetime_warranty_conainer {
+
+				display: 											none;
+		}
+
+
+			#customer_comments_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}
+			#customer_comments_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			#customer_comments_content_container p {
+
+				text-align: 									justify;
+				margin: 											0 1em 1em 1em; /* 32px/990px */
+				color: 											rgba(255,255,255,.8);
+		}
+
+
+
+
+			#faq_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}
+			#faq_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			.faq_question {
+
+				color: 											rgba(255,255,255,1);
+				font-weight: 									normal;
+				margin: 											0 1em 0 1em;
+				padding: 										.5em 0 1em 0;
+		}
+			.faq_answer {
+
+				display:											block;
+				text-align: 									justify;
+				margin: 											0 2em 0 2.5em; /* 0 2em 4em 2.5em; */
+				padding: 										.5em 0 3em 0;
+		}
+			.faq_answer_click a {
+
+				color: 											rgba(255,255,255,.8);
+		}
+
+
+
+
+
+
+			#insurance_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}
+			#insurance_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .75em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			#insurance_content_container p {
+
+				text-align: 									justify;
+				margin: 											0 1em 1em 1em; /* 32px/990px */
+				color:											rgba(255,255,255,.8);
+		}
+			.insurance_before_after_left {
+
+				width:											90%;
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+		}
+			.insurance_before_after_right {
+
+				width:											90%;
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+		}
+
+
+
+
+			#location_map_container {
+
+				display: 										block;
+				width: 											90%;
+				padding: 										0 3.23232323232323% 3.23232323232323% 3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);	
+		}
+			#map_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .75em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+		}
+			#map_container {}
+
+			#map_iframe {
+
+				width: 											100%;
+				height:											300px;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius:									1em;
+		}
+
+
+
+
+			#our_expertise_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								1em;					
+		}
+			#our_expertise_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .75em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			.our_expertise_instance_container {
+
+				margin:											2em 1em 3em 1em;
+		}		
+			.our_expertise_instance_container img {
+
+				width: 											30%;
+				float: 											left;
+				margin: 											0 1em .5em 0;
+		}
+			.expertise_heading {
+
+				font-weight: 									bold;
+				font-size: 										1.1em;
+				padding-top: 									.75em;
+				padding-bottom: 								.75em;
+		}
+			.expertise_details {
+
+				text-align: 									justify;
+		}
+
+
+
+
+			#our_services_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}
+			#our_services_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			.service {
+
+				color: 											rgba(255,255,255,1);
+				font-weight: 									normal;
+				margin: 											0 1em 0 1em;
+				padding: 										.5em 0 1em 0;
+		}
+			.service_description {
+
+				display:											block;
+				text-align: 									justify;
+				margin: 											0 2em 0 2em; /* 0 2em 4em 2.5em; */
+				padding: 										.5em 0 3em 0;
+		}
+			.service_details a {
+
+				color: 											rgba(255,255,255,.8);
+		}
+
+
+
+
+			#refer_friend_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}
+			#refer_friend_container p {
+
+				text-align:										justify;
+				/*margin:											0 1em 1em 1em;*/
+				color:											rgba(255,255,255,.8);
+		}
+			#refer_friend_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em .5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			#refer_friend_form {
+
+				padding: 										0 1.25em 1.25em 1em;
+		}
+			#refer_friend_form input[type=text] {
+
+				margin-bottom: 								1em;
+		}
+			#refer_friend_submit_button {
+
+				height: 											2em;
+				margin: 											2em 0 2em 0;
+				font-weight: 									bold;
+				font-size: 										1em;
+	}		
+
+
+
+
+
+
+	/* --- [ index_page, footer ] --- */
+
+		#footer {
+
+				display: 										none;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- [ min-width:480px and max-width:600px] ----------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+
+
+@media screen and (min-width:480px) and (max-width:600px) {
+
+
+		#contact_info_smaller {
+
+						display: 									none;
+	}
+		#business_info_container {
+
+						display: 									block;
+						float: 										right;
+						margin-right: 								.75em;
+						padding: 									1.75em .75em 0 0;
+						text-align: 								right;
+	}
+		#business_name, #header_address_spacer {
+
+						display: 									none;
+	}
+		.logo {
+
+						float: 										left;
+						padding: 									1em 0 1em 1em;
+	}
+		.logo img {
+
+						height: 										6.3125em;
+	}
+		#menu_and_social_601 {
+
+						border: 										1px solid rgba(255,255,255,.8);
+						border-radius: 							.75em;
+						background-color: 						rgba(0,0,0,.6);
+						text-align: 								center;
+						height: 										65px;
+	}
+
+		.menu_and_social_601_container {
+
+						position: 									relative;
+						padding: 									1em 0 .75em 0;
+						display:										inline-block;
+						width: 										100%;
+						top: 											0em;
+						margin: 										0 auto;
+	}
+		#facebook {
+
+						margin-right: 								4.29530201342282%;
+	}
+		#pinterest {
+
+						margin-right: 								4.29530201342282%;
+	}
+		#menu_601 {
+
+						margin-right: 								4.29530201342282%;
+						padding: 									4px 18px 4px 18px;
+						border: 										1px solid rgba(255,255,206,.5);
+						border-radius: 							.5em;
+						color: 										rgba(255,255,206,1);
+						position: 									relative;
+						top: 											-.75em;					
+	}
+		#googleplus {
+
+				margin-right:									4.29530201342282%;
+	}
+		#twitter {}
+
+
+
+
+
+	
+		#large_photo_container {
+
+				display: 										block;
+	}
+		#large_photo {
+
+				height: 											10.3125em;	/* 165px/16px */ 
+				background: 									url(../../../nissan_370z_01_e01_w539.jpg) no-repeat;
+				background-size: 								cover;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+	}
+		#large_photo_message {
+
+				width:											300px;
+	}
+		#large_photo h4 {
+
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											.75em 0 .5em 1.1em;
+	}
+		#large_photo_message p {
+
+				margin: 											0 0 0 1.5em;
+				text-shadow: 									2px 2px 2px rgba(0,0,0,1);
+	}
+		#para_1, #para_2, #para_3, #para_4 {
+
+				display: 										none;
+	}
+		#para_5 {
+
+				display: 										block;
+	}
+
+
+
+
+
+
+
+
+
+	/* --- [ main content ] ------------------------------------------------------------------------ */
+
+
+	/* --- [ index page, excellence_content_container ] --- */
+
+		#excellence_content_container {
+
+				display: 										none;
+	}
+
+
+	/* --- [ index page, customer_comments ] --- */
+
+		#customer_comments {
+
+				display: 										none;
+	}
+		#customer_comments_right_container {
+
+				display: 										none;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- [ min-width:601px and max-width:767px ] ------------------------------------------ */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width:601px) and (max-width:767px) {
+
+
+		#contact_info_smaller_pages_container {
+
+				display: 									none;
+	}
+
+		.logo {
+
+				float: 										left;
+				height: 										8em;
+				padding: 									.75em 0 .75em 1em;
+	}
+		.logo img {
+
+				height: 										8em;
+	}
+		#business_info_container {
+
+				display: 									block;
+				float: 										right;
+				padding:										1em .75em 0 0;
+				margin-right: 								1em;
+				top: 											0em;
+				color:										rgba(255,255,255,1);
+				text-align: 								right;
+	}
+		#menu_mobile_small {
+
+						/*display: 									none;*/
+	}
+		#menu_and_social_601 {
+
+						display: 									none;
+	}
+		#menu_and_social_medium {
+
+						display: 									block;
+						border: 										1px solid rgba(255,255,255,.8);
+						border-radius: 							.75em;
+						background-color: 						rgba(0,0,0,.6);
+						text-align: 								center;
+	}
+		#menu_mobile_medium_container {
+
+						position: 									relative;
+						left: 										19.0542%;
+						/*margin-left: 								19.0542%; /* (108.8(6.8em*16px)/571px */
+	}
+		.menu_and_social_medium_container {
+
+						/*position: 									relative;*/
+						padding: 									1em 0 .75em 0;
+						display:										inline-block;
+						width: 										100%;
+						/*top: 											0em;*/
+						margin: 										0 auto;
+	}
+		#menu_mobile_medium_left {
+
+						float: 										left;
+						text-align: 								right;
+						margin-right:								3em;
+						margin-bottom: 							2em;
+	}
+		#menu_mobile_medium_left li {
+
+						list-style: 								none;
+						padding:      								1em 0 1em 0;
+	}
+		#menu_mobile_medium_right {
+
+						float: 										left;
+						text-align: 								left;
+						margin-bottom: 							2em;
+	}
+		#menu_mobile_medium_right li {
+
+						list-style: 								none;
+						padding:      								1em 0 1em 0;
+	}
+		#contact_info_smaller {
+
+				display: 										none;
+	}
+
+
+
+		#large_photo_container {
+
+				display: 										block;
+	}
+		#large_photo {
+
+				height: 											10.3125em;	/* 165px/16px */ 
+				background: 									url(../../../nissan_370z_01_e01_w539.jpg) no-repeat;
+				background-size: 								cover;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+	}	
+
+		#large_photo_message {
+
+				width: 											375px;
+	}
+		#large_photo h4 {
+
+				margin: 											.75em 0 .5em 1.1em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}		
+
+		#large_photo_message p {
+
+				margin: 											0 0 0 1.5em;
+				text-shadow: 									2px 2px 2px rgba(0,0,0,1);
+	}
+		#para_1, #para_2, #para_3, #para_5 {
+
+				display: 										none;
+	}
+		#para_4 {
+
+				display: 										block;
+	}
+
+
+
+
+
+
+
+
+
+	/* --- [ main content, 601-767 ] --------------------------------------------------------------- */
+
+
+	/* --- [ index page, excellence_content_container ] --- */
+
+		#excellence_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+		#excellence {
+
+				display: 										block;
+				margin: 											.75em 0 .5em 1.1em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#excellence_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 0 1.5em;
+	}
+		.excellence_before_after_left {
+
+				width:											43.12839059674503%; /* 232.5px/549px(553-4 for borders) */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/muse_storefront.png);
+				background-size:								cover;
+	}
+		.excellence_before_after_right {
+
+				width: 											43.12839059674503%; /* 232.5px/549px (553-4 for borders) */
+				height: 											150px;
+				margin-top: 									1.5em;
+				margin-right: 									4.33996383363472%;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ index page, 601 - 767 ] --- */
+
+		#customer_comments {
+
+				display: 										block;
+				margin-top: 									2em;
+				padding: 										0 3.23232323232323% 0 3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+	}
+
+ 		#customer_comments_heading {
+
+				margin: 											.75em 0 .5em 0;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		.customer_comments_text {
+
+				text-align: 									justify;
+				font-style: 									italic;
+	}
+
+
+
+
+		/* --- [ auto painting, 601-767 ] --- */
+
+		#auto_body_repair_heading {
+
+				display: 										block;
+				margin: 											.75em 0 .5em 1.1em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#auto_body_repair_content_container {
+
+				padding-bottom: 								1.5em;
+	}
+		#auto_body_repair_content_container p {
+
+				text-align: 									justify;
+				margin:											0 1.5em 0 1.5em;
+	}		
+
+		.auto_body_repair_before_after_left {
+
+				width:											43%;
+				height: 											150px;
+				float: 											left;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_body_repair_before_after_right {
+
+				width: 											43%;
+				height: 											150px;
+				float:											left;
+				margin-top: 									1.5em;
+				margin: 											1.5em 0 1.5em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+	/* --- [ auto painting, 601-767 ] --- */
+
+		#auto_painting_heading {
+
+				display: 										block;
+				margin: 											.75em 0 .5em 1.1em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#auto_painting_content_container {
+
+				padding-bottom: 								1.5em;
+	}
+		#auto_painting_content_container p {
+
+				text-align: 									justify;
+				margin:											0 1.5em 0 1.5em;
+	}
+
+		.auto_painting_before_after_left {
+
+				width:											43%;
+				height: 											150px;
+				float: 											left;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_painting_before_after_right {
+
+				width: 											43%;
+				height: 											150px;
+				float:											left;
+				margin-top: 									1.5em;
+				margin: 											1.5em 0 1.5em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ our services, 601 - 767 ] --- */
+
+		#our_services_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1.5em;
+		}
+
+
+	/* --- [ insurance, 601 - 767 ] --- */
+
+		#insurance_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;
+	}
+		.insurance_before_after_left {
+
+				width:											43%;
+				height: 											150px;
+				float: 											left;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.insurance_before_after_right {
+
+				width: 											43%;
+				height: 											150px;
+				float:											left;
+				margin-top: 									1.5em;
+				margin: 											1.5em 0 1.5em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ customer comments, 601 - 767 ] --- */
+
+		#customer_comments_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;
+	}
+		#customer_comments_heading {
+
+				padding-left: 									.5em;
+				padding-bottom: 								1em;
+	}	
+
+
+	/* --- [ our expertise, 601 - 767 ] --- */
+
+		#our_expertise_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;
+	}
+		#our_expertise_heading {
+
+				padding-left: 									.5em;
+				padding-bottom: 								1em;
+	}
+
+
+	/* --- [ faq, 601 - 767 ] --- */
+
+		#faq_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;
+	}
+
+
+	/* --- [ refer-a-friend, 601 - 767 ] --- */
+
+		#refer_friend_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;
+	}
+		input[type=text] {
+
+				height: 											1.75em;
+				width: 											100%;
+	}
+		.error_message {
+
+				position:										relative;
+				top: 												-2px;
+				margin-left: 									.75em;
+				font-size: 										.8em;
+				color: 											rgba(0,255,0,1);
+	}
+
+
+	/* --- [ our policies, 601 - 767 ] --- */
+
+		#our_policies_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										2em;
+	}
+		#our_policies_heading {
+
+				display: 										block;
+				margin: 											.75em 0 1em 0;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#our_policies_content_container p {
+
+				text-align: 									justify;
+				margin-bottom: 								1em;
+	}
+
+
+	/* --- [ about us, 601 - 767 ] --- */
+
+		#about_us_content_container {
+
+				width: 											94%;
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;
+	}
+		#about_us {
+
+				display: 										block;
+				margin: 											.75em 0 1em .5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		.about_us_before_after_left {
+
+				width:											43%;
+				height: 											150px;
+				float: 											left;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.about_us_before_after_right {
+
+				width: 											43%;
+				height: 											150px;
+				float:											left;
+				margin-top: 									1.5em;
+				margin: 											1.5em 0 1.5em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ location map, 601 - 767 ] --- */
+
+		#location_map_container {
+
+				width: 											93%;
+				height: 											500px;
+	}
+		#map_container {
+
+				border-radius: 								0;
+	}
+		#map_iframe {
+
+				height: 											400px;
+				border-radius:									0;
+	}
+
+
+	/* --- [ contact us, 601 - 767 ] --- */
+
+		#contact_us_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;
+	}
+		input[type=text] {
+
+				/*height: 											1.75em;*/
+				/*width: 											100%;*/
+	}
+		.error_message {
+
+				/*position:										relative;*/
+				/*top: 												-2px;*/
+				/*margin-left: 									.75em;*/
+				/*font-size: 										.8em;*/
+				/*color: 											rgba(0,255,0,1);*/
+	}
+
+
+	/* --- [ blog, 601 - 767 ] --- */
+
+
+		#blog_content_container {
+
+				/*display: 										block;*/
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin-right: 									3.23232323232323%; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				/*padding-bottom: 								2em;					*/
+		}
+			.blog_entry_content_container {
+
+				margin: 											0 3% 0 3%; /* 32px/756px */;
+		}		
+			#blog_heading {
+
+				display: 										block;
+				margin: 											1em 0 2em 2em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+	    	.blog_heading_image {
+    
+				float:											left;
+				width:											40%;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius:									.5em;
+				margin-right:									2em;
+				margin-bottom:									2em;
+				margin-top: 									-.5em;
+		}
+			.blog_title {
+
+				font-weight: 									bold;
+				font-size:										1.1em;
+				color: 											rgba(255,255,255,1);
+				margin-bottom:									.5em;
+		}
+			.blog_author {
+
+				color: 											rgba(255,255,255,.6);
+				font-size: 										.8em;
+		}
+			.blog_date_time {
+
+
+		}
+			.byline {
+
+				color: 											rgba(255,255,255,1);
+				font-style: 									italic;
+		}
+			.hidden_blog_article, .visible_blog_article {
+
+				color: 											rgba(255,255,255,.8);
+				text-align: 									justify;
+		}
+			a.view_hide_blog_link {
+
+				color: 											rgba(255,255,255,.8);
+		}
+			a.view_hide_blog_link:hover {
+
+				color: 											rgba(0,255,0,1);
+		}	
+
+
+
+
+	/* --- [ footer, 601-767 ] --- */
+
+		#footer {
+
+				display: 										block;
+				margin-top: 									1em;
+				/*padding: 										1em;*/
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin-bottom: 								2em;
+				background-color: 							rgba(0,0,0,.8);
+				min-height: 									140px;
+	}
+
+		#footer_container {
+
+
+	}
+
+		#ase {
+
+				height: 											100px;
+				float:											left;
+				margin: 											1em 1em 1em 1em;
+	}
+
+		img#icar {
+
+				height: 											50px;
+	}
+
+		#icar_icon {
+
+				/*height: 											100px;*/
+				margin: 											1.75em 1em 1em 0;
+				float: 											left;
+				text-align: 									center;
+	}
+
+		#storefront {
+
+				float: 											right;
+				height: 											140px;
+				width: 											248px;
+				background-image: 							url(../images/muse_storefront_fade_01.png);
+				background-size: 								cover;
+				border-radius: 								1em;
+				overflow: 										hidden;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- [ min-width:768px and max-width:961px ] ----------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+
+
+
+@media screen and (min-width:768px) and (max-width:961px) {
+
+
+		#contact_info_smaller_pages_container {
+
+				display: 										none;
+	}
+
+
+		#business_info_container {
+
+				display: 										block;
+				float: 											right;
+				padding: 										1.5em .75em 0 0;
+				margin-right: 									1em;
+				font-size: 										1em;
+				text-align: 									right;
+				color: 											rgba(255,255,255,1);	
+	}
+		#business_byline {
+
+				display: 										block;
+				position: 										absolute;
+				top:												3.25em;
+				left: 											11.5em;
+
+	}
+		#business_name, #header_address_spacer {
+
+					display: 									none;
+
+	}
+		#menu_and_social_601 {
+
+					display:										none;
+	}
+		#menu_and_social_medium {
+
+					display: 									block;
+					border: 										1px solid rgba(255,255,255,.8);
+					border-radius: 							.75em;
+					background-color: 						rgba(0,0,0,.6);
+					text-align: 								center;
+					padding: 									1em 0 .75em 0;
+	}
+		.menu_and_social_medium_container {
+
+					display: 									block;
+	}
+		#menu_mobile_medium_container {
+
+					position: 									relative;
+					left:			 								25.75%;
+	}
+		#menu_mobile_medium_left {
+
+					float: 										left;
+					text-align: 								right;
+					margin-right:								3em;
+					margin-bottom: 							2em;
+	}
+		#menu_mobile_medium_left li {
+
+					list-style: 								none;
+					padding:      								1em 0 1em 0;
+	}
+		#menu_mobile_medium_right {
+
+					float: 										left;
+					text-align: 								left;
+					margin-bottom: 							2em;
+	}
+		#menu_mobile_medium_right li {
+
+					list-style: 								none;
+					padding:      								1em 0 1em 0;
+	}
+		#contact_info_smaller {
+
+				display: 										none;
+	}
+
+
+
+		#large_photo_container {
+
+				display: 										block;
+	}
+		#large_photo {
+
+				height: 											10.3125em;	/* 165px/16px */ 
+				background: 									url(../../../nissan_370z_01_e01_w539.jpg) no-repeat;
+				background-size: 								cover;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+	}	
+
+		#large_photo_message {
+
+				width: 											375px;
+	}
+		#large_photo h4 {
+
+				margin: 											.75em 0 .5em 1.1em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}		
+
+		#large_photo_message p {
+
+				margin: 											0 0 0 1.5em;
+				text-shadow: 									2px 2px 2px rgba(0,0,0,1);
+	}
+		#para_1, #para_2, #para_3, #para_5 {
+
+				display: 										none;
+	}
+		#para_4 {
+
+				display: 										block;
+	}
+
+
+
+
+		/* --- [ index page, excellence_content_container, 768-1099 ] --- */
+
+		#excellence_content_container {
+
+				display: 										block;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+		#excellence {
+
+				display: 										block;
+				margin: 											.75em 0 .5em 1.1em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#excellence_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 0 3.23232323232323%;
+	}
+		.excellence_before_after_left {
+
+				width:											43.12839059674503%; /* 232.5px/549px(553-4 for borders) */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											1.5em 4.33996383363472% 1.5em 4.33996383363472%;
+				background-image:								url(../images/muse_storefront.png);
+				background-size:								cover;
+	}
+		.excellence_before_after_right {
+
+				width: 											43.12839059674503%; /* 232.5px/549px (553-4 for borders) */
+				height: 											150px;
+				margin-top: 									1.5em;
+				margin-right: 									4.33996383363472%;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+
+		#customer_comments_right_container {
+
+				display: 										block;
+				margin-top: 									2em;
+				padding: 										0 4.50070323488045% 0 4.50070323488045%%; /* 32px/711px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+	}
+
+ 		#customer_comments_right_heading {
+
+				margin: 											.75em 0 .5em 0;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+}
+		.customer_comments_right_text {
+
+				text-align: 									justify;
+				font-style: 									italic;
+}	
+
+
+		/* --- [ auto painting, left, 768-961 ] --- */
+
+		#auto_painting_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin-right: 									3.23232323232323%; /* 32px/990px */*/
+				margin-bottom: 								0;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#auto_painting_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#auto_painting_content_container p {
+
+				text-align: 									justify;
+				margin:											0 4.50070323488045% 2em 4.50070323488045%; /* 32px/711px */
+				color: 											rgba(255,255,255,1);
+	}
+		.auto_painting_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											0 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(/site_wide_assets/images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_painting_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											0 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(/site_wide_assets/images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ auto body repair, 768-961 ] --- */
+
+		#auto_body_repair_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#auto_body_repair_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#auto_body_repair_content_container p {
+
+				text-align: 									justify;
+				margin:											0 4.50070323488045% 2em 4.50070323488045%; /* 32px/711px */
+				color: 											rgba(255,255,255,1);
+	}
+		.auto_body_repair_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											0 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(/site_wide_assets/images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_body_repair_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											0 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(/site_wide_assets/images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ our services, 767-961 ] --- */
+
+			#our_services_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin-right: 									3.23232323232323%; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										1em;					
+		}		
+			#our_services_heading {
+
+					display: 									block;
+					margin: 										.5em 0 1em .5em;
+					color: 										rgba(255,255,215,1);
+					font-size: 									1.25em;
+					font-family: 								'Kaushan Script', cursive;
+					text-align:									left;
+		}
+	/* --- [ insurance, 768-961 ] --- */
+
+		#insurance_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#insurance_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#insurance_content_container p {
+
+				text-align: 									justify;
+				margin:											0 4.50070323488045% 2em 4.50070323488045%; /* 32px/711px */
+				color: 											rgba(255,255,255,1);
+	}
+		.insurance_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											0 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(/site_wide_assets/images/before_01.png);
+				background-size:								cover;
+	}
+		.insurance_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											0 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(/site_wide_assets/images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ our expertise, 768-961 ] --- */
+
+		#our_expertise_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										0 1em 1em 1em;					
+	}
+
+
+	/* --- [ faq, 768-961 ] --- */
+
+		#faq_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										0 1em 1em 1em;					
+	}
+
+
+	/* --- [ refer a friend, 768-961 ] --- */
+
+		#refer_friend_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										0 1em 1em 1em;					
+	}
+		#refer_friend_sender_first_name_div, #refer_friend_sender_last_name_div,
+		#refer_friend_sender_email_div, #refer_friend_sender_email_confirmation_div,
+
+		#refer_friend_sender_friend_first_name_div, #refer_friend_sender_friend_last_name_div,
+		#refer_friend_sender_friend_email_div, #refer_friend_sender_friend_email_confirmation_div {
+
+				width: 											46%;
+				float: 											left;
+				margin-right: 									2.5em;
+				margin-bottom: 								1em;
+	}
+		#refer_friend_sender_last_name_div, #refer_friend_sender_email_confirmation_div,
+		#refer_friend_sender_friend_last_name_div, #refer_friend_sender_friend_email_confirmation_div {
+
+				margin-right: 									0;
+	}
+		#refer_friend_sender_comments_div {
+
+				width: 											98%;
+	}
+
+
+	/* --- [ our policies, 768-961 ] --- */
+
+		#our_policies_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										0 2em 2em 2em;					
+	}
+		#our_policies_content_container p {
+
+				margin-bottom: 								2em;
+				text-align: 									justify;
+	}
+		#our_policies_heading {
+
+				color: 											rgba(255,255,215,1);
+				font-size: 										20px;
+				font-family: 									'Kaushan Script', cursive;
+				margin-top: 									1.5em;
+	}
+
+
+		#about_us_content_container {
+
+				display: 										block;
+				width: 											95.5%;
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										0 1em 1.5em 1em;					
+	}
+		.about_us_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											1em 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(/site_wide_assets/images/before_01.png);
+				background-size:								cover;
+	}
+		.about_us_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											1em 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(/site_wide_assets/images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+	/* --- [ location map 768-961 ] --- */
+
+		#location_map_container {
+
+				width: 											93.5%;
+	}
+		#map_iframe {
+
+				height: 											500px;
+	}
+
+
+	/* --- [ contact us, 768-961 ] --- */
+
+		#contact_us_content_container {
+
+				display: 										block;
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin: 											0 3.23232323232323% 0 0; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding: 										0 1em 1em 1em;					
+	}
+		#contact_us_first_name_div, #contact_us_last_name_div,
+		#contact_us_email_div, #contact_us_email_confirmation_div {
+
+				width: 											46%;
+				float: 											left;
+				margin-right: 									2.5em;
+				margin-bottom: 								1em;
+	}
+		#contact_us_last_name_div, #contact_us_email_confirmation_div {
+
+				margin-right: 									0;
+	}
+		#contact_us_comments_div {
+
+				width: 											98%;
+	}
+
+
+	/* --- [ blog, 768 - 961 ] --- */
+
+
+		#blog_content_container {
+
+				/*display: 										block;*/
+				/*width: 											60%;*/
+				/*float: 											left;*/
+				/*margin-right: 									3.23232323232323%; /* 32px/990px */*/
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				/*padding-bottom: 								2em;					*/
+		}
+			.blog_entry_content_container {
+
+				margin: 											0 3% 0 3%; /* 32px/756px */;
+		}		
+			#blog_heading {
+
+				display: 										block;
+				margin: 											1em 0 2em 2em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+	    	.blog_heading_image {
+    
+				float:											left;
+				width:											40%;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius:									.5em;
+				margin-right:									2em;
+				margin-bottom:									2em;
+				margin-top: 									-.5em;
+		}
+			.blog_title {
+
+				font-weight: 									bold;
+				font-size:										1.1em;
+				color: 											rgba(255,255,255,1);
+				margin-bottom:									.5em;
+		}
+			.blog_author {
+
+				color: 											rgba(255,255,255,.6);
+				font-size: 										.8em;
+		}
+			.blog_date_time {
+
+
+		}
+			.byline {
+
+				color: 											rgba(255,255,255,1);
+				font-style: 									italic;
+		}
+			.hidden_blog_article, .visible_blog_article {
+
+				color: 											rgba(255,255,255,.8);
+				text-align: 									justify;
+		}
+			a.view_hide_blog_link {
+
+				color: 											rgba(255,255,255,.8);
+		}
+			a.view_hide_blog_link:hover {
+
+				color: 											rgba(0,255,0,1);
+		}
+
+
+
+/* --- [ 768-961 ] --- */
+
+		#footer {
+
+				display: 										block;
+				margin-top: 									2em;
+				/*padding: 										1em;*/
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin-bottom: 								2em;
+				background-color: 							rgba(0,0,0,.8);
+	}
+
+		#ase {
+
+				height: 											100px;
+				float:											left;
+				margin		: 									1em 1em 1em 1em;
+	}
+
+		img#icar {
+
+				height: 											50px;
+				margin-top: 									1.75em;
+	}
+
+		#icar_icon {
+
+				/*height: 											100px;*/
+				margin-top: 									1em 1em 1em 2em;
+				float: 											left;
+				text-align: 									center;
+	}
+
+		#storefront {
+
+				float: 											right;
+				height: 											140px;
+				width: 											348px;
+				background-image: 							url(../images/muse_storefront_fade_01.png);
+				background-size: 								cover;
+				border-radius: 								1em;
+				overflow: 										hidden;
+	}	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- [ min-width:1100px and max-width:1399px and orientation:portrait] ---------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+
+
+
+
+@media screen and (min-width:1100px) and (max-width:1399px) {
+
+		#page_wrapper {
+
+					position: 									relative;
+					width: 										90%;
+					margin: 										0 auto;
+					margin-top: 								2em;
+					max-width: 									1400px;
+	}
+		#header {
+
+					border: 										1px solid rgba(255,255,255,.8);
+					border-radius: 							1em;
+					background-color: 						rgba(0,0,0,.6);
+					margin-bottom: 							2em;
+	}
+		.logo {
+
+					float: 										left;
+					height: 										8em;
+					padding: 									1em 0 .75em 2em;
+	}
+		.logo img {
+
+					height: 										8em;
+	}
+		#business_byline {
+
+					display: 									block;
+					position: 									absolute;
+					top:											4.25em;
+					left: 										15em;
+					font-style: 								italic;
+	}
+		#business_info_container {
+
+					display: 									block;
+					float: 										right;
+					margin-right: 								1.5em;
+					padding: 									1.5em .75em 0 0;
+					text-align: 								right;
+					color: 										rgba(255,255,255,1);
+	}
+		#business_name {
+
+						display: 								block;
+						font-weight: 							bold;
+						color: 									rgba(247,237,192,1);
+						font-size: 								1.16em;
+	}
+		#header_address_spacer {
+
+						display: 								none;
+	}
+		#menu_and_social_601 {
+
+						display: 								none;
+	}
+		#menu_and_social_medium {
+
+				display: 										block;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								.75em;
+				background-color: 							rgba(0,0,0,.6);
+				text-align: 									center;
+				padding: 										1em 0 .75em 0;
+				margin-bottom: 								2em;						
+	}
+		.menu_and_social_medium_container {
+
+				display: 										block;
+	}
+		#menu_mobile_medium_container {
+
+
+				position: 										relative;
+				left: 											33.25%;
+	}
+		#menu_mobile_medium_left {
+
+				float: 											left;
+				text-align: 									right;
+				margin-right:									3em;
+				margin-bottom: 								2em;
+	}
+		#menu_mobile_medium_left li {
+
+				list-style: 									none;
+				padding:      									1em 0 1em 0;
+	}
+		#menu_mobile_medium_right {
+
+				float: 											left;
+				text-align: 									left;
+				margin-bottom: 								2em;
+	}
+		#menu_mobile_medium_right li {
+
+				list-style: 									none;
+				padding:      									1em 0 1em 0;
+	}
+		#contact_info_smaller {
+
+				display: 										none;
+	}
+
+
+
+
+		#large_photo_container {
+
+				display: 										block;
+				margin-bottom: 								2em;
+	}
+		#large_photo {
+
+				height: 											15.625em; /* 250px/16px */
+				background:										url(../../../nissan_370z_01_e01.jpg) no-repeat;
+				background-size: 								cover;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+	}
+		#large_photo_message {
+
+				width: 											550px;
+	}
+		#large_photo h4 {
+
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1.5em;
+	}
+		#large_photo p {
+
+				margin: 											0 0 0 2em;
+				text-shadow: 									2px 2px 2px rgba(0,0,0,1);
+				color: 											rgba(255,255,255,1);
+	}
+		#para_1, #para_2, #para_3 {
+
+				display: 										block;
+	}
+		#para_4, #para_5 {
+
+				display: 										none;
+	}
+
+
+
+
+	/* --- [ index page, excellence_content_container, 1100-1399 ] --- */
+
+		#excellence_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+		#excellence {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#excellence_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 0 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+	}
+		.excellence_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											2em 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(../images/before_01.png);
+				background-size:								cover;
+	}
+		.excellence_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											2em 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}	
+
+
+
+
+	/* --- [ index page, customer_comments, 1100-1399 ] --- */
+
+		#customer_comments {
+
+				display: 										block;
+				width: 											29.7979797979798%; /* 295px/990px */
+				float: 											left;
+				padding: 										0 3.23232323232323% 2em 3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+		#customer_comments_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 0; /*2.42424242424242%; /* 24px/990px */
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align: 									left;
+	}
+		.customer_comments_text {
+
+				font-style: 									italic;
+				color: 											rgba(255,255,255,1);
+				text-align: 									justify;
+	}
+
+
+
+
+	/* --- [ footer, 1100-1399 ] --- */
+
+		#footer {
+
+				display: 										block;
+				margin-top: 									32px;
+				/*padding: 										1em;*/
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin-bottom: 								36px;
+				background-color: 							rgba(0,0,0,.8);
+	}
+		#ase {
+
+				height: 											100px;
+				float:											left;
+				margin-right: 									1em;
+	}
+		#icar_icon {
+
+				height: 											100px;
+				margin-top: 									8px;
+				float: 											left;
+				text-align: 									center;
+	}
+
+
+}
+
+
+
+
+/* --- [ min-width:962px ] ------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+
+
+
+@media screen and (min-width:962px) {
+
+
+		#page_wrapper {
+
+					position: 									relative;
+					width: 										90%;
+					margin: 										0 auto;
+					margin-top: 								2em;
+					max-width: 									1400px;
+	}
+		#header {
+
+				margin-bottom: 								2em;
+	}
+		.logo {
+
+				float: 											left;
+				height: 											8em;
+				padding: 										2em 0 1.5em 2em;
+	}
+		.logo img {
+
+				height: 											8em;
+	}
+		#business_byline {
+
+				display: 										block;
+				position: 										absolute;
+				top: 												5.25em;
+				left: 											15em;											
+	}
+		#business_info_container {
+
+				display: 										block;
+				float: 											right;
+				margin-right: 									2em;
+				padding: 										2em .75em 0 0;
+				text-align: 									right;
+	}
+		#header_address_spacer {
+
+				display: 										block;
+	}
+		#menu_mobile_medium_container {
+
+				position: 										relative;
+				left: 											36.75%;
+	}
+
+
+
+
+		#menu_and_social_601 {
+
+					display:										none;
+	}
+		#menu_and_social_medium {
+
+					display: 									block;
+					margin-bottom: 							2em;
+					border: 										1px solid rgba(255,255,255,.8);
+					border-radius: 							.75em;
+					background-color: 						rgba(0,0,0,.6);
+					text-align: 								center;
+					padding: 									1em 0 .75em 0;
+	}
+		.menu_and_social_medium_container {
+
+					display: 									block;
+	}
+		#menu_mobile_medium_container {
+
+					position: 									relative;
+					left:			 								35.75%;
+	}
+		#menu_mobile_medium_left {
+
+					float: 										left;
+					text-align: 								right;
+					margin-right:								3em;
+					margin-bottom: 							2em;
+	}
+		#menu_mobile_medium_left li {
+
+					list-style: 								none;
+					padding:      								1em 0 1em 0;
+	}
+		#menu_mobile_medium_right {
+
+					float: 										left;
+					text-align: 								left;
+					margin-bottom: 							2em;
+	}
+		#menu_mobile_medium_right li {
+
+					list-style: 								none;
+					padding:      								1em 0 1em 0;
+	}
+
+
+
+
+
+		#contact_info_smaller {
+
+				display: 										none;
+	}
+		#contact_info_smaller_pages_container {
+
+				display: 										none;
+	}
+
+
+		#large_photo_container {
+
+				display: 										block;
+				margin-bottom: 								2em;
+	}
+		#large_photo {
+
+				height: 											15.625em; /* 250px/16px */
+				background:										url(../../../nissan_370z_01_e01.jpg) no-repeat;
+				background-size: 								cover;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+	}
+		#large_photo_message {
+
+				width: 											550px;
+	}
+		#large_photo h4 {
+
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1.5em;
+	}
+		#large_photo p {
+
+				margin: 											0 0 0 2em;
+				text-shadow: 									2px 2px 2px rgba(0,0,0,1);
+	}
+		#para_1, #para_2, #para_3 {
+
+				display: 										block;
+	}
+		#para_4, #para_5 {
+
+				display: 										none;
+	}
+
+
+
+
+	/* --- [ index page, excellence_content_container, 1400 + ] --- */
+
+		#excellence_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+		#excellence {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#excellence_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 0 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+	}
+		.excellence_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											2em 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(../images/muse_storefront.png);
+				background-size:								cover;
+	}
+		.excellence_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											2em 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(../images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+	/* --- [ index page, customer_comments, 1400 + ] --- */
+
+		#customer_comments_right_container {
+
+				display: 										block;
+				width: 											29.7979797979798%; /* 295px/990px */
+				float: 											left;
+				padding: 										0 3.23232323232323% 2em 3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+		#customer_comments_right_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 0;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align: 									left;
+	}
+		.customer_comments_right_text {
+
+				font-style: 									italic;
+				color: 											rgba(255,255,255,1);
+				text-align: 									justify;
+	}
+
+
+
+
+
+
+
+
+
+	/* --- [ about us, left, 1400 + ] ---------------------------------------------------------------------- */
+
+
+		#about_us_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#about_us {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1.5em;
+	}
+		#about_us_content_container p {
+
+				text-align: 									justify;
+				margin: 											0 3.23232323232323% 2em 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+	}
+		.about_us_before_after_left {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border: 											1px solid rgba(255,255,255,.8);
+				float: 											left;
+				border-radius: 								1em;
+				margin: 											0 5.42372881355932% 2em 5.42372881355932%;
+				background-image:  							url(/site_wide_assets/images/before_01.png);
+				background-size: 								cover;
+	}
+		.about_us_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											0 5.42372881355932% 2em 0;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius:									1em;
+				background-image:  							url(/site_wide_assets/images/after_01.png);
+				background-size:								cover;
+	}
+
+
+
+
+	/* --- [ about us, preferred shop, right, 1400 + ] --- */
+
+		#preferred_container {
+
+				display: 										block;
+				width: 											29.7979797979798%; /* 295px/990px */
+				float: 											left;
+				padding: 										0 3.23232323232323% 0 3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				margin-bottom: 								2em;
+				margin-top: 									0;					
+	}
+		#preferred_container p {
+
+				margin-bottom: 								2em;
+	}
+	 	#preferred_heading {
+
+	 			display: 										block;
+				margin: 											1em 0 1em 0;	 		
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align: 									left;
+	}
+		.preferred_text {
+
+				text-align: 									justify;
+				color: 											rgba(255,255,255,1);
+	}
+
+
+
+/* --- [ about us, lifetime warrany, right, 1400 + ] --- */
+
+
+		#lifetime_warranty_container {
+
+				display: 										block;
+				width: 											29.7979797979798%; /* 295px/990px */
+				float: 											left;
+				padding: 										0 3.23232323232323% 0 3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				margin-top: 									0;
+	}
+		#lifetime_warranty_container p {
+
+				margin-bottom: 								2em;
+				text-align:										justify;
+	}
+	 	#warranty_heading {
+
+	 			display: 										block;
+				margin: 											1em 0 1em 0;	 		
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align: 									left;
+	}
+
+
+
+
+
+
+
+	/* --- [ location_map, left, 1400 _ ] ------------------------------------------------------------------------ */
+
+
+		#location_map_container {
+
+				display: 										block;
+				width: 											53.535353535354%;
+				float: 											left;
+				padding: 										0 3.23232323232323% 3.23232323232323% 3.23232323232323%; /* 32px/990px */
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);	
+	}
+		#map_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 0;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#map_container {}
+
+		#map_iframe {
+
+				width: 											100%;
+				height:											600px;
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius:									1em;
+	}
+
+
+
+
+
+	/* --- [ our policies, left, 1400 + ] ---------------------------------------------------------------------- */
+
+
+		#our_policies_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#our_policies_heading {
+
+				display: 										block;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1.5em;
+	}
+		#our_policies_content_container p {
+
+				text-align: 									justify;
+				margin: 											0 3.23232323232323% 2em 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+	}
+
+
+	/* --- [ insurance page, left, 1400 + ] --- */
+
+		#insurance_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#insurance_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#insurance_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 2em 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+	}
+		.insurance_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											0 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(/site_wide_assets/images/before_01.png);
+				background-size:								cover;
+	}
+		.insurance_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											0 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(/site_wide_assets/images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+	
+
+
+
+
+	/* --- [ customer comments, left, 1400 + ] --- */
+
+			#customer_comments_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+		}
+			#customer_comments_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;		
+		}
+			#customer_comments_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 0 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+		}
+			.customer_comments_text {
+
+					font-style:									italic;
+					text-align:									justify;
+		}
+			.customer_comments_tag {
+
+					color: 										rgba(255,255,255,1);
+		}
+
+
+
+
+	/* --- [ our services, left, 1400 + ] --- */
+
+			#our_services_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}		
+			#our_services_heading {
+
+					display: 									block;
+					margin: 										1em 0 1em 2em;
+					color: 										rgba(255,255,215,1);
+					font-size: 									1.25em;
+					font-family: 								'Kaushan Script', cursive;
+					text-align:									left;
+		}
+			.service {
+
+					color: 										rgba(255,255,255,1);
+					font-weight: 								normal;
+					margin-left: 								2.5em;
+		}
+			.service_details {
+
+					color: 										rgba(255,255,255,.8);
+					font-family: 								helvetica, arial, sans-serif;
+					font-size: 									.8em;
+					font-weight: 								normal;
+		}
+			.service_details a {
+
+					color: 										rgba(255,255,255,.8);
+		}
+			.service_details a:hover {
+
+					color: 										rgba(0,255,0,1);
+		}
+			.service_description {
+
+					display:										none;
+					margin: 										0 2em 0 2.5em;
+		}
+
+
+
+
+	/* --- [ our expertise, left, 1400 + ] --- */
+
+			#our_expertise_content_container {
+
+					display: 										block;
+					width: 											60%;
+					float: 											left;
+					margin-right: 									3.23232323232323%; /* 32px/990px */
+					border:											1px solid rgba(255,255,255,.8);
+					border-radius: 								1em;
+					background-color: 							rgba(0,0,0,.4);
+					padding-bottom: 								2em;					
+		}
+			#our_expertise_heading {
+
+					display: 									block;
+					margin: 										1em 0 1em 2em;
+					color: 										rgba(255,255,215,1);
+					font-size: 									1.25em;
+					font-family: 								'Kaushan Script', cursive;
+					text-align:									left;
+		}
+			.our_expertise_instance_container {
+
+					margin:										2em 2em 4em 2em;
+		}
+			.our_expertise_instance_container img {
+
+					width: 										25%;
+					float: 										left;
+					margin: 										0 2em 1em 0;
+		}			
+			.expertise_heading {
+
+					font-weight: 								bold;
+					font-size: 									1.1em;
+					padding-top: 								.75em;
+					padding-bottom: 							.75em;
+		}
+			.expertise_details {
+
+					text-align: 								justify;
+		}
+
+
+
+
+	/* --- [ auto body repair, left, 1400 + ] --- */
+
+		#auto_body_repair_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin: 											0 3.23232323232323% 0 0; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#auto_body_repair_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#auto_body_repair_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 2em 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+	}
+		.auto_body_repair_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											0 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(/site_wide_assets/images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_body_repair_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											0 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(/site_wide_assets/images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+		/* --- [ auto painting, left, 962 ] --- */
+
+		#auto_painting_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				margin-bottom: 								0;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);					
+	}
+
+		#auto_painting_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+	}
+		#auto_painting_content_container p {
+
+				text-align: 									justify;
+				margin:											0 3.23232323232323% 2em 2em; /* 32px/990px */
+				color: 											rgba(255,255,255,1);
+	}
+		.auto_painting_before_after_left {
+
+				width:											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				border:											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				margin: 											0 5.42372881355932% 2em 5.42372881355932%;
+				background-image:								url(/site_wide_assets/images/before_01.png);
+				background-size:								cover;
+	}
+		.auto_painting_before_after_right {
+
+				width: 											41.24579124579125%; /* 245px/590px */
+				height: 											150px;
+				margin: 											0 5.42372881355932% 2em 0;
+				border: 											1px solid rgba(255,255,255,.8);
+				float:											left;
+				border-radius: 								1em;
+				background-image: 							url(/site_wide_assets/images/after_01.png);
+				background-size: 								cover;
+	}
+
+
+
+
+		/* --- [ faq, left, 1400 + ] --- */
+
+			#faq_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}		
+			#faq_heading {
+
+					display: 									block;
+					margin: 										1em 0 1em 2em;
+					color: 										rgba(255,255,215,1);
+					font-size: 									1.25em;
+					font-family: 								'Kaushan Script', cursive;
+					text-align:									left;
+		}
+			.faq_question {
+
+					color: 										rgba(255,255,255,1);
+					font-weight: 								normal;
+					margin: 										0 0 0 2.5em;
+					padding: 									.5em 0 1em 0;
+		}
+			.faq_answer_click {
+
+					color: 										rgba(255,255,255,.8);
+					font-family: 								helvetica, arial, sans-serif;
+					font-size: 									.8em;
+					font-weight: 								normal;
+		}
+			.faq_answer_click a {
+
+					color: 										rgba(255,255,255,.8);
+		}
+			.faq_answer_click a:hover {
+
+					color: 										rgba(0,255,0,1);
+		}
+			.faq_answer {
+
+					display:										block;
+					text-align: 								justify;
+					margin: 										0 2em 0 2.5em; /* 0 2em 4em 2.5em; */
+					padding: 									.5em 0 3em 0;
+		}
+
+
+
+
+
+		/* --- [ contact us, contact us form, left, 1400 + ] --- */
+
+			#contact_us_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}		
+			#contact_us_heading {
+
+				display: 										block;
+				margin: 											1em 0 1em 1.5em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			#contact_us_form {
+
+
+
+		}
+			.contact_us_form {
+
+				/*padding: 										2em 1.25em 1.25em 2.5em;*/
+				padding: 										0 2.5em 1.25em 5.69620253164557%; /* 27/510 */
+
+		}
+			#contact_us_intro {
+
+				text-align: 									justify;
+				margin-bottom: 								2em;
+		}
+			.required_note {
+
+				font-weight:										normal;
+				font-size:											.6em;
+				color:												rgba(255,255,255,.8);
+				margin-left: 										1em;
+				font-family: 										helvetica, arial, sans-serif;
+
+		}
+			.required_asterick {
+
+				color: 												rgba(255,0,0,1);
+				font-weight: 										bold;
+				font-size: 											1em;
+		}
+			#contact_us_first_name_div, #contact_us_last_name_div,
+			#contact_us_email_div, #contact_us_email_confirmation_div	{
+
+				width: 												46%;
+				float: 												left;
+				margin-right: 										2em;
+				margin-bottom: 									1em;
+		}
+			#contact_us_last_name_div, #contact_us_email_confirmation_div,
+			#contact_us_last_name_div, #contact_us_email_confirmation_div {
+
+				margin-right: 										0;
+		}
+			#contact_us_comments_div {
+
+				margin-bottom: 									2em;
+		}
+			#contact_us_comments {
+
+				width: 												99%;
+		}
+			label {
+
+				font-family: 										helvetica, arial, sans-serif;
+				position: 											relative;
+				left:													7px;
+				top: 													-2px;
+		}
+			.error_message {
+
+				position:											relative;
+				top: 													-2px;
+				margin-left: 										.75em;
+				font-size: 											.8em;
+				color: 												rgba(255,0,0,1);
+		}
+			input[type=text], textarea {
+
+				border-radius: 									3px;
+				border:												none;
+				box-shadow: 										0 1px 2px rgba(0,0,0,0.4) inset, 0 -1px 0 rgba(0,0,0,0.4) inset;
+				transition:											all 0.2s linear;
+
+				font-family:										helvetica, arial, sans-serif;
+				font-size: 											1em;
+				color: 												rgba(0,0,0,0.7);
+				position: 											relative;
+				padding-left: 										6px;
+		}
+			input[type=text] {
+
+				height: 												1.75em;
+				width: 												100%;
+		}
+			textarea {
+
+				padding-top: 										5px;
+		}
+			input[type=text]:focus, textarea:focus {
+
+				box-shadow: 										2px 2px 3px rgba(0,255,0,.3), 2px 2px 3px rgba(0,255,0,.3), 0 -3px 3px rgba(0,255,0,.4), -3px 0 3px rgba(0,255,0,.4);
+
+		}
+			#contact_us_submit_button {
+
+				height: 												2.4em;
+				margin-bottom: 									2em;
+				font-weight: 										bold;
+				border-radius: 									.5em;
+		}
+			.validation_image_status {
+
+				position:											relative;
+				top:													1px;
+				left:													5px;
+		}
+
+
+
+
+
+
+
+
+
+		/* --- [ blog, left, 962 + ] --- */
+
+			#blog_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;
+				margin-top: 									0;					
+		}
+			.blog_entry_content_container {
+
+				margin: 											0 4.23280423280423% 0 4.23280423280423%; /* 32px/756px */;
+		}		
+			#blog_heading {
+
+				display: 										block;
+				margin: 											1em 0 2em 2em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+	    	.blog_heading_image {
+    
+				float:											left;
+				width:											30%;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius:									.5em;
+				margin-right:									2em;
+				margin-bottom:									2em;
+				margin-top: 									-.5em;
+		}
+			.blog_title {
+
+				font-weight: 									bold;
+				font-size:										1.1em;
+				color: 											rgba(255,255,255,1);
+				margin-bottom:									.5em;
+		}
+			.blog_author {
+
+				color: 											rgba(255,255,255,.6);
+				font-size: 										.8em;
+		}
+			.blog_date_time {
+
+
+		}
+			.byline {
+
+				color: 											rgba(255,255,255,1);
+				font-style: 									italic;
+		}
+			.hidden_blog_article, .visible_blog_article {
+
+				color: 											rgba(255,255,255,.8);
+				text-align: 									justify;
+		}
+			a.view_hide_blog_link {
+
+				color: 											rgba(255,255,255,.8);
+				margin: 											0;
+				margin-top: 									-.3em;
+		}
+			a.view_hide_blog_link:hover {
+
+				color: 											rgba(0,255,0,1);
+		}
+
+
+
+
+
+			#refer_friend_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;					
+		}
+			#refer_friend_heading {
+
+				color: 											rgba(255,255,215,1);
+				font-size: 										20px;
+				font-family: 									'Kaushan Script', cursive;
+				margin: 											1em 0 1em 1.5em;
+		}
+			.required_note {
+
+				font-weight:									normal;
+				font-size:										.6em;
+				color:											rgba(255,255,255,.8);
+				margin-left: 									1em;
+				font-family: 									helvetica, arial, sans-serif;
+		}
+			.required_asterick {
+
+				color: 											rgba(255,0,0,1);
+				font-weight: 									bold;
+				font-size: 										1em;
+		}		
+			#refer_friend_form {
+
+				padding: 										0 2.5em 1.25em 5.69620253164557%; /* 27/510 */
+		}
+			#refer_friend_intro {
+
+				text-align: 									justify;
+				margin-bottom: 								2em;
+		}
+			#refer_friend_sender_first_name_div, #refer_friend_sender_last_name_div,
+			#refer_friend_sender_email_div, #refer_friend_sender_email_confirmation_div,
+
+			#refer_friend_sender_friend_first_name_div, #refer_friend_sender_friend_last_name_div,
+			#refer_friend_sender_friend_email_div, #refer_friend_sender_friend_email_confirmation_div {
+
+				width: 											46%;
+				float: 											left;
+				margin-right: 									2em;
+				margin-bottom: 								1em;
+		}
+			#refer_friend_sender_last_name_div, #refer_friend_sender_email_confirmation_div,
+			#refer_friend_sender_friend_last_name_div, #refer_friend_sender_friend_email_confirmation_div {
+
+				margin-right: 									0;
+		}
+			#refer_friend_sender_comments_div {
+
+				margin-bottom: 								2em;
+		}
+			#refer_friend_sender_comments {
+
+				width: 											99%;
+		}
+			label {
+
+				font-family: 									helvetica, arial, sans-serif;
+				position: 										relative;
+				left:												7px;
+				top: 												-2px;
+		}
+			.error_message {
+
+				position:										relative;
+				top: 												-2px;
+				margin-left: 									.75em;
+				font-size: 										.8em;
+				color: 											rgba(255,0,0,1);
+		}
+			input[type=text], textarea {
+
+				border-radius: 								3px;
+				border:											none;
+				box-shadow: 									0 1px 2px rgba(0,0,0,0.4) inset, 0 -1px 0 rgba(0,0,0,0.4) inset;
+				transition:										all 0.2s linear;
+
+				font-family:									helvetica, arial, sans-serif;
+				font-size: 										1em;
+				color: 											rgba(0,0,0,0.7);
+				position: 										relative;
+				padding-left: 									6px;
+		}
+			input[type=text] {
+
+				height: 											1.75em;
+				width: 											100%;
+		}
+			textarea {
+
+				padding-top: 									5px;
+		}
+			input[type=text]:focus, textarea:focus {
+
+				box-shadow: 									2px 2px 3px rgba(0,255,0,.3), 2px 2px 3px rgba(0,255,0,.3), 0 -3px 4px rgba(0,255,0,.4), -3px 0 4px rgba(0,255,0,.4);
+		}
+			#refer_friend_submit_button {
+
+				height: 											2.4em;
+				margin-bottom: 								27px;
+				font-weight: 									bold;
+		}
+			.validation_image_status {
+
+				position:										relative;
+				top:												1px;
+				left:												5px;
+		}
+
+
+	/* --- [ repair steps, 962 + ] --- */
+
+			#repair_steps_content_container {
+
+				display: 										block;
+				width: 											60%;
+				float: 											left;
+				margin-right: 									3.23232323232323%; /* 32px/990px */
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				background-color: 							rgba(0,0,0,.4);
+				padding-bottom: 								2em;
+				margin-top: 									0;					
+		}
+
+			#repair_steps_heading {
+
+				display: 										block;
+				margin: 											1em 0 2em 2em;
+				color: 											rgba(255,255,215,1);
+				font-size: 										1.25em;
+				font-family: 									'Kaushan Script', cursive;
+				text-align:										left;
+		}
+			.repair_step_content_container {
+
+				padding: 										2em;
+		}
+	    	.repair_step_image {
+    
+				float:											left;
+				width:											30%;
+				border:											1px solid rgba(255,255,255,.8);
+				border-radius:									.5em;
+				margin-right:									2em;
+				margin-bottom:									2em;
+				margin-top: 									-.5em;
+		}
+			.repair_step_title {
+
+				font-weight: 									bold;
+				font-size:										1.1em;
+				color: 											rgba(255,255,255,1);
+				margin-bottom:									1em;
+		}
+			.repair_step_text {
+
+				text-align: 									justify;
+		}
+
+
+
+
+
+
+
+
+	/* --- [ footer, 1400 + ] --- */
+
+		#footer {
+
+				display: 										block;
+				margin-top: 									2em;
+				/*padding: 										1em;*/
+				border: 											1px solid rgba(255,255,255,.8);
+				border-radius: 								1em;
+				margin-bottom: 								2em;
+				background-color: 							rgba(0,0,0,.8);
+				min-height: 									184px;
+	}
+
+		#footer_container {
+
+				/*height: 											100%;*/
+	}
+
+		#ase {
+
+				height: 											120px;
+				float:											left;
+				margin:											2em 1em 1em 2em;
+
+	}
+		img#icar {
+
+				height: 											75px;
+	}
+
+		#icar_icon {
+
+				margin: 											2.75em 1em 1em 0;
+				float: 											left;
+				text-align: 									center;
+	}
+
+		#storefront {
+
+				float: 											right;
+				height: 											184px;
+				width: 											348px;
+				background-image: 							url(../images/muse_storefront_fade_01.png);
+				background-size: 								cover;
+				border-radius: 								1em;
+				overflow: 										hidden;
+	}
+
+
+}
+
+
+
+
+
