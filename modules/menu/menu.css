@@ -88,3 +88,117 @@
 					cursor: 										pointer;
 					background-color: 						rgba(255,255,255,.3);
 }
+
+
+
+
+/* --- [ min-width:320px and max-width:479px ] ---------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+	#menu_mobile_small {
+
+					text-align: 								center;
+}
+
+	#menu_mobile_small li {
+
+					padding: 									1em 0 1em 0;
+					list-style: 								none;
+}
+
+	#menu_and_social_601 {
+
+					border: 										1px solid rgba(255,255,255,.8);
+					border-radius: 							.75em;
+					background-color: 						rgba(0,0,0,.6);
+					text-align: 								center;
+}
+
+	#menu_and_social_medium {
+
+					display: 									none;
+}
+	.menu_and_social_601_container {
+
+					/*position: 									relative;*/
+					padding: 									1em 0 .75em 0;
+					display:										inline-block;
+					width: 										100%;
+					/*top: 											0em;*/
+					margin: 										0 auto;
+}
+
+	.menu_and_social_medium_container {
+
+					display: 									none;
+}	
+	#facebook {
+
+					margin-right: 								4.29530201342282%;
+}
+
+	#pinterest {
+
+					margin-right: 								4.29530201342282%;
+}
+
+	#menu_601 {
+
+					margin-right: 								4.29530201342282%;
+					padding: 									4px 18px 4px 18px;
+					border: 										1px solid rgba(255,255,206,.5);
+					border-radius: 							.5em;
+					color: 										rgba(255,255,206,1);
+					position: 									relative;
+					top: 											-.75em;					
+}
+
+	#menu_medium {
+
+					margin-right: 								4.29530201342282%;
+					padding: 									4px 18px 4px 18px;
+					border: 										1px solid rgba(255,255,206,.5);
+					border-radius: 							.5em;
+					color: 										rgba(255,255,206,1);
+					position: 									relative;
+					top: 											-.75em;
+}
+	#googleplus {
+
+					margin-right:								4.29530201342282%;
+}
+	#twitter {
+
+
+}
+
+	#menu {
+
+					display: 									none;
+
+					position:									absolute;
+					left: 										45.9127%; /* 50%-4.0873% = 45.9127% */
+					top: 											115px;
+					padding: 									4px 18px 4px 18px;
+					border: 										1px solid rgba(255,255,206,.5);
+					border-radius: 							.5em;
+					color: 										rgba(255,255,206,1);
+}
+	#social_icons {
+
+					display: 									none;
+
+					width: 										2em;
+					height: 										8em;
+					position: 									relative;
+					top: 											-9.85em;
+					float:										right;
+					padding-right:								2.53968253968254%; /* 32px/1260px */
+}
