@@ -24,6 +24,18 @@
 					text-align: 								center;
 }
 
+	#menu_mobile_small li a {
+
+					color: 										rgba(255,255,255,1);
+					text-decoration: 							none;
+}
+	#menu_mobile_small li a:hover {
+
+					color: 										rgba(0,255,0,1);
+					text-decoration: 							none;
+}
+
+
 	.menu_and_social_601_container {
 
 					/*position: 									relative;*/
