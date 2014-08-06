@@ -71,24 +71,24 @@
 
 				<ul id="menu_mobile_medium_left">
 
-					<li><a href="/index.cfm">Home</a></li>
-					<li><a href="/modules/auto_painting/auto-painting.cfm">Auto Painting</a></li>
-					<li><a href="/modules/auto_body_repair/auto-body-repair.cfm">Auto Body Repair</a></li>
-					<li><a href="/modules/our_services/our-services.cfm">Our Services</a></li>
-					<li><a href="/modules/insurance/insurance.cfm">Insurance</a></li>
-					<li><a href="/modules/customer_comments/customer-comments.cfm">Customer Comments</a></li>
-					<li><a href="/modules/our_expertise/our-expertise.cfm">Our Expertise</a></li>
+					<li><a href =  "/index.cfm">Home</a></li>
+					<li><a href =	"/modules/auto_painting/auto-painting.cfm">Auto Painting</a></li>
+					<li><a href =	"/modules/auto_body_repair/auto-body-repair.cfm">Auto Body Repair</a></li>
+					<li><a href =	"/modules/our_services/our-services.cfm">Our Services</a></li>
+					<li><a href =	"/modules/insurance/insurance.cfm">Insurance</a></li>
+					<li><a href =	"/modules/customer_comments/customer-comments.cfm">Customer Comments</a></li>
+					<li><a href =	"/modules/our_expertise/our-expertise.cfm">Our Expertise</a></li>
 
 				</ul>
 
 				<ul id="menu_mobile_medium_right">
 
-					<li><a href="/modules/faq/faq.cfm">FAQ</a></li>
-					<li><a href="/modules/refer_a_friend/refer-a-friend.cfm">Refer-a-Friend</a></li>
-					<li><a href="/modules/repair_steps/repair-steps.cfm">Repair Steps</a></li>
-					<li><a href="/modules/about_us/about-us.cfm">About Us</a></li>
-					<li><a href="/modules/location_map/location-map.cfm">Map to our Location</a></li>
-					<li><a href="/modules/contact_us/contact-us.cfm">Contact Us</a></li>
+					<li><a href =	"/modules/faq/faq.cfm">FAQ</a></li>
+					<li><a href =	"/modules/refer_a_friend/refer-a-friend.cfm">Refer-a-Friend</a></li>
+					<li><a href =	"/modules/repair_steps/repair-steps.cfm">Repair Steps</a></li>
+					<li><a href =	"/modules/about_us/about-us.cfm">About Us</a></li>
+					<li><a href =	"/modules/location_map/location-map.cfm">Map to our Location</a></li>
+					<li><a href =	"/modules/contact_us/contact-us.cfm">Contact Us</a></li>
 					<!--- <li><a href="/modules/blog/blog.cfm">Blog</a></li> --->
 
 				</ul>
