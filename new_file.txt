@@ -1,1 +1,1 @@
-This is a new file.
+This is a new file. This is a new line added to see how GIT will respond.
